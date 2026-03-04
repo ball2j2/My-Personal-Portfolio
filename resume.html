@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume | Jordan Ball</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Jordan Ball</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="resume.html" class="active">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+
+<main>
+  <section class="resume-table-container">
+    <h2>Resume</h2>
+
+    <!-- Education Table -->
+    <h3>Education</h3>
+    <table class="resume-table">
+      <tr>
+        <th>Degree</th>
+        <th>Institution</th>
+        <th>Years</th>
+      </tr>
+      <tr>
+        <td>B.S. in Cybersecurity</td>
+        <td>University of Cincinnati</td>
+        <td>2025–2030</td>
+      </tr>
+    </table>
+
+    <!-- Experience Table -->
+    <h3>Experience</h3>
+    <table class="resume-table">
+      <tr>
+        <th>Job Title</th>
+        <th>Company</th>
+        <th>Years</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td>Dietary Aid/Server</td>
+        <td>Western Hills Retirement Village</td>
+        <td>June 2024–Present</td>
+        <td>
+          <ul>
+            <li>Ensure elderly residents receive correct diet intake while collaborating in a team-based environment.</li>
+            <li>Provide outstanding customer service and timely delivery of meals.</li>
+            <li>Solve technical problems and assist residents with technology.</li>
+            <li>Trained over 10 staff members on procedures and problem-solving.</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Skills Table -->
+    <h3>Technical Skills</h3>
+    <table class="resume-table">
+      <tr>
+        <th>Programming</th>
+        <th>Software</th>
+        <th>Design</th>
+        <th>Apps</th>
+        <th>Operating Systems</th>
+        <th>Tools</th>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>Microsoft 365</td>
+        <td>HTML, CSS, JavaScript, Photoshop, Video Editing</td>
+        <td>All Social Media Platforms</td>
+        <td>Windows, MacOS, iOS</td>
+        <td>GitHub, VS Code, IntelliJ IDEA</td>
+      </tr>
+    </table>
+
+    <a href="Jordan_Ball_Resume.pdf" class="resume-btn" download>Download Resume PDF</a>
+  </section>
+</main>
+
+
+
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-about">
+      <h3>Jordan Ball</h3>
+      <p>Cybersecurity student at University of Cincinnati</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+      <div class="footer-social">
+      <h4>Connect With Me</h4>
+      <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jordan-ball-b79059382/" target="_blank" aria-label="LinkedIn Profile">
+            <img src="WhiteLinkedInLogo.png" alt="LinkedIn Logo">
+          </a>
+        <a href="mailto:balljordan2007@gmail.com" aria-label="Send Email">
+          <img src="WhiteEmailLogo.png" alt="Email Logo">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">© <span id="year"></span> Jordan Ball. All rights reserved.</p>
+</footer>
+
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

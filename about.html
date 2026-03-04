@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Jordan Ball</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Jordan Ball</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Me Container -->
+    <section class="about-container">
+      <h2>About Me</h2>
+      <p>I’m a passionate IT student at the University of Cincinnati! I specialize in building web applications and computer networking.
+        My expertise includes JavaScript, Java, HTML, CSS. I thrive on creating clean code and enjoy exploring new technologies to stay at the forefront of the industry.
+        When I’m not coding, I love contributing to open-source projects and exploring innovative solutions to real-world problems.</p>
+    </section>
+
+    <!-- Projects Container -->
+    <section class="projects-container">
+      <h2>My Projects</h2>
+
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>TicTacToe</h3>
+        <p>Developed a Tic Tac Toe game in Java that allows two players to play interactively.</p>
+        <a href="https://github.com/ball2j2/Lab_10_TicTacToe" class="btn">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>RockPaperScissors</h3>
+        <p>Developed a Rock, Paper, Scissors game through Java that allows a player to compete against another person over a device.</p>
+        <a href="https://github.com/ball2j2/Ass01_RockPaperScissors" class="btn">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>Craps</h3>
+        <p>Developed a Craps dice game through Java which simulates casino gameplay. </p>
+        <a href="https://github.com/ball2j2/Ass_01_Craps/blob/main/src/CrapsGame.java" class="btn">View Project</a>
+      </div>
+
+
+      <!-- Add more projects here as needed -->
+    </section>
+  </main>
+
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-about">
+      <h3>Jordan Ball</h3>
+      <p>Cybersecurity student at University of Cincinnati</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+      <div class="footer-social">
+      <h4>Connect With Me</h4>
+      <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jordan-ball-b79059382/" target="_blank" aria-label="LinkedIn Profile">
+            <img src="WhiteLinkedInLogo.png" alt="LinkedIn Logo">
+          </a>
+        <a href="mailto:balljordan2007@gmail.com" aria-label="Send Email">
+          <img src="WhiteEmailLogo.png" alt="Email Logo">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">© <span id="year"></span> Jordan Ball. All rights reserved.</p>
+</footer>
+
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+  <script src="script.js"></script>
+</body>
+</html>

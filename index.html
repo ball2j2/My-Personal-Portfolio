@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Jordan Ball</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Jordan Ball</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section class="home">
+      <img src="jballgrad.jpg" alt="Photo of Jordan Ball" class="profile-photo">
+      <div class="intro">
+        <h2 class="welcome-text">Welcome to my Portfolio!</h2>
+        <p class="welcome-text">
+          I’m <strong>Jordan Ball</strong> — a motivated IT student passionate about building reliable web applications. Check out my resume or learn more about me!
+        </p>
+        <a href="resume.html" class="btn">View Resume</a>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+  <h2 class="section-title">My Skills</h2>
+  <div class="skills-container">
+    <div class="skill-box">
+      <h3>Web Development</h3>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+    <div class="skill-box">
+      <h3>Cybersecurity</h3>
+      <p>Network Security, Penetration Testing</p>
+    </div>
+    <div class="skill-box">
+      <h3>IT Support</h3>
+      <p>Hardware & Software Maintenance</p>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Jordan Ball</h3>
+        <p>Cybersecurity student at University of Cincinnati</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Connect With Me</h4>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jordan-ball-b79059382/" target="_blank" aria-label="LinkedIn Profile">
+            <img src="WhiteLinkedInLogo.png" alt="LinkedIn Logo">
+          </a>
+          <a href="mailto:balljordan2007@gmail.com" aria-label="Send Email">
+            <img src="WhiteEmailLogo.png" alt="Email Logo">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <p class="footer-bottom">© <span id="year"></span> Jordan Ball. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
